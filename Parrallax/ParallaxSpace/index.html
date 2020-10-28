@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parallax.js</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="/parallax.js"></script>
+</head>
+<body>
+	<img src="background.jpg" alt="">
+	<div class="container">
+		<ul id="scene">
+			<li class="layer" data-depth=".1">
+				<img src="text.png">
+			</li>
+			<li class="layer" data-depth="1">
+				<img src="planet1.png">
+			</li>
+			<li class="layer" data-depth="-1">
+				<img src="planet2.png">
+			</li>
+			<li class="layer" data-depth="2">
+				<img src="astronaut.png">
+			</li>
+			<li class="layer" data-depth="0.5">
+				<img src="rocket.png">
+			</li>
+		</ul>
+	</div>
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+</body>
+</html>

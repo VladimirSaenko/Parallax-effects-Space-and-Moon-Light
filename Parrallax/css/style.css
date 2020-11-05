@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+/* 
+.section-space {
+    width: 50%;
+    height: 100vh;
+    background: red;
+    transition: 1.5s;
+}
+
+.section-moon {
+    background-color: blue;
+    width: 781.5px;
+    height: 100vh;
+    position: relative;
+    bottom: 100vh;
+    left: 100vh;
+    transition: 1.5s;
+}
+
+.section-space:hover {
+    transition: 1s;
+    width: 65%;
+}
+
+.section-moon:hover {
+    transition: 1s;
+    width: 65%;
+}
+
+.section-space:hover +.section-moon {
+    width: 581.5px;
+    transition: 1s;
+    margin-left: 200px;
+    position: relative;
+}
+
+
+.section-moon:hover +.section-space {
+    margin-left: 200px;
+    width: 500px;
+    transition: 1s;
+    position: relative;
+} */

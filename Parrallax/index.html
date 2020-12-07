@@ -3,16 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallax</title>
     <!-- <title>Parrallax</title> -->
     <!-- <title>Parralax</title> -->
     <!-- <title>Paralax</title> -->
-    <link rel="stylesheet" href="css/style.css">
+    <title>Parrallax effects | Space & Moon</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!-- <section class="section-space">
-    </section>
-    <section class="section-moon">
-    </section> -->
+    <ul class="list">
+        <li><div id="div-1" onmouseover="changeItem1()" onmouseout="rechangeItem1()" class="div-1"></div>
+        </li>
+        <li>
+            <div id="div-2" onmouseover="changeItem2()" onmouseout="rechangeItem2()" class="div-2"></div>
+        </li>
+    </ul>
+    <script>
+        let parspace = document.getElementById('div-1');
+        let parmoon = document.getElementById('div-2');
+        function changeItem1() {
+            parspace.style.width = '1050px';
+            parmoon.style.width = '486px';
+        }
+        function rechangeItem1() {
+            parspace.style.width = '766px';
+            parmoon.style.width = '770px';
+        }
+        function changeItem2() {
+            parmoon.style.width = '1050px';
+            parspace.style.width = '486px';
+        }
+        function rechangeItem2() {
+            parspace.style.width = '766px';
+            parmoon.style.width = '770px';
+        }
+    </script>
 </body>
 </html>

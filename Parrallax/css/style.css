@@ -2,51 +2,32 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    user-select: none;
 }
 
-body {
-    height: 100vh;
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
-/* 
-.section-space {
-    width: 50%;
+.div-1 {
+    width: 766px;
     height: 100vh;
     background: red;
-    transition: 1.5s;
+    transition: 1s;
 }
 
-.section-moon {
-    background-color: blue;
-    width: 781.5px;
+.div-1:hover, .div-2:hover {
+    transition: 1s;
+}
+
+.div-2 {
+    width: 770px;
     height: 100vh;
-    position: relative;
-    bottom: 100vh;
-    left: 100vh;
-    transition: 1.5s;
-}
-
-.section-space:hover {
+    background: blue;
     transition: 1s;
-    width: 65%;
-}
-
-.section-moon:hover {
-    transition: 1s;
-    width: 65%;
-}
-
-.section-space:hover +.section-moon {
-    width: 581.5px;
-    transition: 1s;
-    margin-left: 200px;
-    position: relative;
 }
 
 
-.section-moon:hover +.section-space {
-    margin-left: 200px;
-    width: 500px;
-    transition: 1s;
-    position: relative;
-} */

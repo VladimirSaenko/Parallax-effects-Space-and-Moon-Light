@@ -7,19 +7,27 @@
     <!-- <title>Parralax</title> -->
     <!-- <title>Paralax</title> -->
     <title>Parrallax effects | Space & Moon Light</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <ul class="list">
-        <li><div id="div-1" onmouseover="changeItem1()" onmouseout="rechangeItem1()" class="div-1"></div>
+        <li><div id="side-1" onmouseover="changeItem1()" onmouseout="rechangeItem1()" class="right-side">
+            <a href="Parrallax/Parallax Space/index.html">
+            <img class="space-text" src="img/space-text.png">
+            </a>
+        </div>
         </li>
         <li>
-            <div id="div-2" onmouseover="changeItem2()" onmouseout="rechangeItem2()" class="div-2"></div>
+            <div id="side-2" onmouseover="changeItem2()" onmouseout="rechangeItem2()" class="left-side">
+                <a href="Parrallax/Parallax Moon Light/index.html">
+                <h2 class="moonlight-text">Moon Light</h2>
+                </a>
+            </div>
         </li>
     </ul>
     <script>
-        let parspace = document.getElementById('div-1');
-        let parmoon = document.getElementById('div-2');
+        let parspace = document.getElementById('side-1');
+        let parmoon = document.getElementById('side-2');
         function changeItem1() {
             parspace.style.width = '1050px';
             parmoon.style.width = '486px';

@@ -1,5 +1,3 @@
 # Parrallax Space & Moon example
- 
-Пример использования Parallax эффекта
 
-Два сайта с эффектом Parallax на тему Космос и Moon Light
+Сайт с прикольной фичей с двумя сайтами Space and Moon Light с эффектами Parallax

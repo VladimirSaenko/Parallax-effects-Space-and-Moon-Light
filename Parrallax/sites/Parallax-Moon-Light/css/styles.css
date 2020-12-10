@@ -5,11 +5,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background: rgb(10,1,29);
-    min-height: 1500px;
+    min-height: 1475px;
 }
 
 section {
@@ -58,4 +59,34 @@ section img {
 
 #road {
     z-index: 2;
+}
+
+footer {
+    background: #091921;
+    width: auto;
+    height: 100vh;
+}
+
+.footerTittle {
+    cursor: default;
+    user-select: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 75px;
+    transform: translateY(-50%);
+    transform: translateX(-100%);
+}
+
+.git-img {
+    /* visibility: hidden; */
+    position: relative;
+    top: 50%;
+    /* transform: translateY(100%); */
+    transform: translateX(-100%);
+    /* transform: translateX(240%); */
+    border-radius: 1000px;
+    width: 250px;
+    height: 250px;
 }

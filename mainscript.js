@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let parspace = document.getElementById('side-1');
 let parmoon = document.getElementById('side-2');

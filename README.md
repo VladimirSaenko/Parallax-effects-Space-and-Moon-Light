@@ -1,4 +1,4 @@
-# Parrallax-effect-Space-and-Moon-Light
+# Parallax-effect-Space-and-Moon-Light
 
 ## Сайт с двумя сайтами Space & Moon Light с эффектами Parallax
 

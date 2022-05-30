@@ -1,25 +1,21 @@
 
 "use strict";
 
-let parspace = document.getElementById('side-1');
-let parmoon = document.getElementById('side-2');
+const rightbox = document.getElementById("right");
+const leftbox = document.getElementById("left");
 
-function changeItem1() {
-    parspace.style.width = '1050px';
-    parmoon.style.width = '486px';
-}
+rightbox.addEventListener('mousemove', () => {
+    rightbox.style.width = '75vw';
+})
 
-function rechangeItem1() {
-    parspace.style.width = '766px';
-    parmoon.style.width = '770px';
-}
+rightbox.addEventListener('mouseleave', () => {
+    rightbox.style.width = '50vw';
+})
 
-function changeItem2() {
-    parmoon.style.width = '1050px';
-    parspace.style.width = '486px';
-}
+leftbox.addEventListener('mousemove', () => {
+    leftbox.style.width = '75vw';
+})
 
-function rechangeItem2() {
-    parspace.style.width = '766px';
-    parmoon.style.width = '770px';
-}
+leftbox.addEventListener('mouseleave', () => {
+    leftbox.style.width = '50vw';
+})

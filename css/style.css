@@ -37,7 +37,7 @@ a {
     position: relative;
     top: 0;
     height: 100%;
-    background: url(img/space.png);
+    background: url(../images/space.png);
     background-size: cover;
     width: 50vw;
 }
@@ -54,7 +54,7 @@ a {
     top: 0;
     height: 100%;
     width: 50vw;
-    background: url(img/moonlight.png);
+    background: url(../images/moonlight.png);
     background-size: cover;
     background-position: center;
 }
